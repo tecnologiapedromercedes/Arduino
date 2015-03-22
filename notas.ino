@@ -5,8 +5,9 @@ void setup() {
 }
  
 void loop() {
+ // Do
    digitalWrite(speakerPin, HIGH);
-   delayMicroseconds(1000);
+   delayMicroseconds(1915);
    digitalWrite(speakerPin, LOW);
-   delayMicroseconds(1000);
+   delayMicroseconds(1915);
 }
